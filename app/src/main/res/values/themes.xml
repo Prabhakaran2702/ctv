@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.AndroidTVExample" parent="@style/Theme.Leanback" />
+    <style name="Theme.AndroidTVExample.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AndroidTVExample.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.AndroidTVExample.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
